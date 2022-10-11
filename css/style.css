@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+/* Develop by Md Hasib Un Nabi Schneho Khan */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #01018a;
+    color: #ffffff;
+    font-family: 'Salsa', cursive;
+}
+
+
+.sene_header{
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.sene_login-signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.sene_form_container{
+    max-width: 950px;
+    margin: 0 auto;
+    
+    padding-bottom:5%;
+}
+.sene_form_container form{
+   width: 100%;
+}
+
+.fa-user:before {
+    margin-right: 10px;
+}
+
+.fa-user-edit:before, .fa-user-pen:before {
+    margin-right: 10px;
+}
+input{
+    width: 100%;
+    height: 100px;
+}
+.sene_form_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sene_form_fields {
+    margin: 2% 0;
+}
+.sene_form_heading h2 {
+    font-size: 2em;
+    margin: 2% 0;
+}
+
+
+.sene_form_container form .sene_form_fields:nth-child(1) input {
+    height: 29px;
+}
+.sene_form_container form .sene_form_buttons  input {
+    height: 50px;
+}
+
+.sene_form_button {
+    width: 50%;
+}
