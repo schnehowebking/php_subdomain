@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* Develop by Md Hasib Un Nabi Schneho Khan */
 *{
     margin: 0;
@@ -9,7 +9,8 @@
 body{
     background-color: #01018a;
     color: #ffffff;
-    font-family: 'Salsa', cursive;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
 }
 
 .content_warper{
@@ -17,37 +18,53 @@ body{
     margin: 0 auto;
     padding-top: 5%;
 }
-.content_warper h2{
-    font-size: 35px;
+.content_container .welcome{
+    font-size:21px;
+    letter-spacing: 2px;
+}
+.content_warper h2 {
+    font-size: 28px;
     line-height: 1;
     font-weight: 700;
-    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 .logo_usr{
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 100%;
+    max-height:50vh;
+    height:50vh;
     margin: 0 auto;
 }
 .logo_usr img{
-    width: 100%;
+    max-width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 .content_container{
-    max-width: 600px;
     margin: 0 auto;
-    padding: 5% 0;
+    padding: 1% 0;
     
 }
 .content_container h1{
-    text-align: center;
-
+    margin-bottom:3%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 .content_container p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 1;
-    text-align: center;
+    line-height: 1.5;
+    margin:2% 0;
+    letter-spacing: 1px;
+}
+.content_container pre{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.8;
+    margin:2% 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    white-space: pre-wrap;
+
 }
 
 
@@ -58,7 +75,6 @@ body{
 }
 .footer_contents p{
    text-align: center;
+   letter-spacing: 2px;
 }
-
-
 
